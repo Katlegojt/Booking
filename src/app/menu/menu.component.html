@@ -1,0 +1,41 @@
+<html>
+
+<body style="background-color: black">
+   <div class="wrapper">
+      <header>
+         <nav>
+            <div class="menu-icon">
+               <i class="fa fa-bars fa-2x"></i>
+            </div>
+            <div class="logo">
+               LOGO
+            </div>
+            <div class="menu">
+               <ul><strong>
+                     <li><a [routerLink]="['home']">Home</a></li>
+                     <li><a [routerLink]="['book']">Book</a></li>
+                     <li><a [routerLink]="['about']">About</a></li>
+                     <li><a [routerLink]="['contact']">Contact</a></li>
+                  </strong></ul>
+            </div>
+         </nav>
+      </header>
+      <div class="content"></div>
+
+
+   </div>
+
+   <footer class="container-fluid text-center bg-lightgray">
+
+      <div class="copyrights" >
+         <p>Mossy City © 2016, All Rights Reserved
+            <br>
+            <span>Web Design By: Katlego</span></p>
+         <p><a href="https://www.linkedin.com" target="_blank">Linkedin <i class="fa fa-linkedin-square"
+                  aria-hidden="true"></i> </a></p>
+      </div>
+   </footer>
+</body>
+
+</html>
+<router-outlet></router-outlet>
